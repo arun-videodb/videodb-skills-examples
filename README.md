@@ -1,6 +1,6 @@
 # VideoDB Skills Examples
 
-Curated use cases and real-world examples powered by [VideoDB](https://videodb.io) skills. Each subfolder contains a self-contained example showing what you can build with VideoDB's video intelligence capabilities.
+Curated use cases and real-world examples powered by [VideoDB Skills](https://github.com/video-db/skills). Each subfolder contains a self-contained example showing what you can build with VideoDB skills in [Claude Code](https://claude.com/claude-code).
 
 ## Use Cases
 
@@ -17,9 +17,10 @@ Curated use cases and real-world examples powered by [VideoDB](https://videodb.i
 
 This applies uniformly across uploaded files, live streams, and screen capture.
 
+- [VideoDB Skills](https://github.com/video-db/skills) — Install skills for Claude Code
 - [VideoDB Documentation](https://docs.videodb.io)
 - [VideoDB Python SDK](https://github.com/video-db/videodb-python)
 
 ## Contributing
 
-Have a cool use case built with VideoDB skills? Open a PR to add your example!
+Have a cool use case built with [VideoDB Skills](https://github.com/video-db/skills)? Open a PR to add your example!

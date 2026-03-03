@@ -1,6 +1,6 @@
 # Animated Trailer from Video
 
-Transform any movie trailer into an AI-generated animated trailer with consistent style, coherent storyline, and original score — using natural language prompts in [Claude Code](https://claude.com/claude-code) with VideoDB skills.
+Transform any movie trailer into an AI-generated animated trailer with consistent style, coherent storyline, and original score — using natural language prompts in [Claude Code](https://claude.com/claude-code) with [VideoDB Skills](https://github.com/video-db/skills).
 
 ## Example Output
 
@@ -76,3 +76,7 @@ This ensures all scenes share the same visual language. Individual scenes can be
 - **Documentary teasers** — Reimagine a nature documentary as stylized animation
 - **Music videos** — Create an animated music video from a lyric video
 - **Product demos** — Transform a product walkthrough into an animated explainer
+
+---
+
+Built with [VideoDB Skills](https://github.com/video-db/skills) and [Claude Code](https://claude.com/claude-code).

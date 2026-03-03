@@ -54,7 +54,7 @@ YouTube Playlist
 
 ## Prompts Used
 
-This study guide was created using [Claude Code](https://claude.com/claude-code) with VideoDB skills enabled. Here's the exact prompt sequence:
+This study guide was created using [Claude Code](https://claude.com/claude-code) with [VideoDB Skills](https://github.com/video-db/skills) enabled. Here's the exact prompt sequence:
 
 **Prompt 1** — Kick off the entire workflow with a single request:
 
@@ -81,3 +81,7 @@ You can also get more specific with what you want:
 - Language learning courses
 - Coding tutorial series
 - Documentary series
+
+---
+
+Built with [VideoDB Skills](https://github.com/video-db/skills) and [Claude Code](https://claude.com/claude-code).
