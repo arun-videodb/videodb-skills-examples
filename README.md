@@ -10,7 +10,11 @@ Curated use cases and real-world examples powered by [VideoDB](https://videodb.i
 
 ## What is VideoDB?
 
-[VideoDB](https://videodb.io) is a serverless database for video. It lets you upload, search, and programmatically interact with video content. VideoDB skills provide building blocks like transcript extraction, semantic indexing, and content generation.
+[VideoDB](https://videodb.io) is the perception, memory, and action layer for AI agents. Every workflow follows a consistent loop:
+
+> **See** (Ingest) → **Process** → **Understand** (Indexes) → **Remember** → **Retrieve** (Search) → **Act**
+
+This applies uniformly across uploaded files, live streams, and screen capture.
 
 - [VideoDB Documentation](https://docs.videodb.io)
 - [VideoDB Python SDK](https://github.com/video-db/videodb-python)
