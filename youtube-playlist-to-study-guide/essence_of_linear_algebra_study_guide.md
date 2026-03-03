@@ -27,6 +27,8 @@
 
 ## Chapter 1: Vectors
 
+![Chapter 1: Vectors](./images/chapter-01.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=fNk_zzaMoSs)**
 
 ### The Big Idea
@@ -84,6 +86,8 @@ Numerically: multiply each component by the scalar.
 
 ## Chapter 2: Linear Combinations, Span, and Basis Vectors
 
+![Chapter 2: Linear Combinations, Span, and Basis Vectors](./images/chapter-02.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=k7RM-ot2NWY)**
 
 ### The Big Idea
@@ -135,6 +139,8 @@ The **span** of a set of vectors is the set of all possible linear combinations 
 
 ## Chapter 3: Linear Transformations and Matrices
 
+![Chapter 3: Linear Transformations and Matrices](./images/chapter-03.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=kYB8IZa5AuE)**
 
 ### The Big Idea
@@ -179,6 +185,8 @@ This is **matrix-vector multiplication** - not a formula to memorize, but a cons
 
 ## Chapter 4: Matrix Multiplication as Composition
 
+![Chapter 4: Matrix Multiplication as Composition](./images/chapter-04.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=XkY2DOUCWMU)**
 
 ### The Big Idea
@@ -212,6 +220,8 @@ Matrix multiplication reads **right to left**: in `M2 * M1`, you apply M1 first,
 ---
 
 ## Chapter 5: Three-Dimensional Linear Transformations
+
+![Chapter 5: Three-Dimensional Linear Transformations](./images/chapter-05.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=rHLEWRxRGiM)**
 
@@ -248,6 +258,8 @@ Works the same way: apply the left matrix to each column of the right matrix. 3D
 ---
 
 ## Chapter 6: The Determinant
+
+![Chapter 6: The Determinant](./images/chapter-06.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=Ip3X9LOh2dk)**
 
@@ -294,6 +306,8 @@ This makes perfect sense: if M1 scales areas by 3 and M2 scales areas by 2, the 
 ---
 
 ## Chapter 7: Inverse Matrices, Column Space, and Null Space
+
+![Chapter 7: Inverse Matrices, Column Space, and Null Space](./images/chapter-07.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=uQhTuRlWMxw)**
 
@@ -361,6 +375,8 @@ When solving **Ax = 0**, the null space gives all solutions.
 
 ## Chapter 8: Nonsquare Matrices as Transformations Between Dimensions
 
+![Chapter 8: Nonsquare Matrices as Transformations Between Dimensions](./images/chapter-08.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=v8VSDg_WQlA)**
 
 ### The Big Idea
@@ -388,6 +404,8 @@ The concepts of full rank and column space still apply: a 3x2 matrix can be full
 ---
 
 ## Chapter 9: Dot Products and Duality
+
+![Chapter 9: Dot Products and Duality](./images/chapter-09.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=LyGKycYT2v0)**
 
@@ -449,6 +467,8 @@ For a non-unit vector (say 3 * u-hat), the dot product gives the projection scal
 
 ## Chapter 10: Cross Products
 
+![Chapter 10: Cross Products](./images/chapter-10.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=eu6i7WJeinw)**
 
 ### The Big Idea
@@ -499,6 +519,8 @@ Expand the determinant, and the coefficients on i-hat, j-hat, k-hat give the com
 
 ## Chapter 11: Cross Products in the Light of Linear Transformations
 
+![Chapter 11: Cross Products in the Light of Linear Transformations](./images/chapter-11.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=BaM7OCEm3G0)**
 
 ### The Big Idea
@@ -533,6 +555,8 @@ The "trick" of putting basis vectors in the first column of a determinant is act
 ---
 
 ## Chapter 12: Cramer's Rule, Explained Geometrically
+
+![Chapter 12: Cramer's Rule, Explained Geometrically](./images/chapter-12.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=jBsC34PxzoM)**
 
@@ -584,6 +608,8 @@ Cramer's Rule isn't the most efficient method (Gaussian elimination is faster). 
 ---
 
 ## Chapter 13: Change of Basis
+
+![Chapter 13: Change of Basis](./images/chapter-13.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=P2LTAUO1TdA)**
 
@@ -638,6 +664,8 @@ This pattern `B^(-1) * A * B` is called a **similarity transformation** or **con
 ---
 
 ## Chapter 14: Eigenvectors and Eigenvalues
+
+![Chapter 14: Eigenvectors and Eigenvalues](./images/chapter-14.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=PFDu9oVAE-g)**
 
@@ -709,6 +737,8 @@ A^100 is trivial in an eigenbasis: just raise each diagonal entry to the 100th p
 
 ## Chapter 15: A Quick Trick for Computing Eigenvalues
 
+![Chapter 15: A Quick Trick for Computing Eigenvalues](./images/chapter-15.jpg)
+
 **[Watch on YouTube](https://www.youtube.com/watch?v=e50Bj7jn9IQ)**
 
 ### The Big Idea
@@ -771,6 +801,8 @@ If m² < p, the square root is imaginary, meaning the eigenvalues are complex. G
 ---
 
 ## Chapter 16: Abstract Vector Spaces
+
+![Chapter 16: Abstract Vector Spaces](./images/chapter-16.jpg)
 
 **[Watch on YouTube](https://www.youtube.com/watch?v=TgKwz5Ikpc8)**
 
