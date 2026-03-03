@@ -1,4 +1,4 @@
-# Animated Trailer from Video
+# Animated Trailer from a YouTube Video
 
 Transform any movie trailer into an AI-generated animated trailer with consistent style, coherent storyline, and original score — using natural language prompts in [Claude Code](https://claude.com/claude-code) with [VideoDB Skills](https://github.com/video-db/skills).
 
