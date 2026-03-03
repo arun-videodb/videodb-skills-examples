@@ -7,6 +7,7 @@ Curated use cases and real-world examples powered by [VideoDB](https://videodb.i
 | Example | Description |
 |---|---|
 | [YouTube Playlist to Study Guide](./youtube-playlist-to-study-guide/) | Turn any YouTube playlist into a comprehensive, structured study guide using transcript extraction and AI synthesis |
+| [Animated Trailer from Video](./animated-trailer-from-video/) | Transform any movie trailer into a fully AI-generated animated trailer with consistent style, coherent storyline, and original score |
 
 ## What is VideoDB?
 
