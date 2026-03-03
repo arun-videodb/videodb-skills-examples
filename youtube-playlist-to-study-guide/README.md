@@ -52,35 +52,27 @@ YouTube Playlist
 4. **Extract transcripts** — Call `video.get_transcript_text()` to get the full text transcript for each video
 5. **Synthesize** — Feed all transcripts to an LLM with a prompt to generate a structured study guide, organized by chapter/topic with key concepts, examples, and takeaways
 
+## Prompts Used
+
+This study guide was created using [Claude Code](https://claude.com/claude-code) with VideoDB skills enabled. Here's the exact prompt sequence:
+
+**Prompt 1** — Kick off the entire workflow with a single request:
+
+> /videodb upload all videos from this playlist https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab, extract transcripts, and create a structured study guide in a .md file
+
+That's it. VideoDB skills automatically upload all 16 videos, index spoken words, extract transcripts, and the LLM synthesizes everything into the structured study guide.
+
 ## Reproduce It With Any Playlist
 
-You can use this same workflow with any YouTube playlist:
+Swap in your own playlist URL and adjust the output format to taste:
 
-```python
-import videodb
+> /videodb upload all videos from this playlist `<YOUR_PLAYLIST_URL>`, extract transcripts, and create a structured study guide in a .md file
 
-conn = videodb.connect()
-coll = conn.get_collection()
+You can also get more specific with what you want:
 
-# Upload videos from your playlist
-urls = [...]  # Your YouTube video URLs
-videos = []
-for url in urls:
-    video = conn.upload(url=url)
-    videos.append(video)
+> /videodb upload all videos from this playlist `<YOUR_PLAYLIST_URL>`, extract transcripts, and create a cheat sheet with key formulas and definitions
 
-# Index and extract transcripts
-transcripts = []
-for video in videos:
-    video.index_spoken_words()
-    transcript = video.get_transcript_text()
-    transcripts.append({
-        "title": video.name,
-        "transcript": transcript
-    })
-
-# Feed transcripts to an LLM to generate your study guide
-```
+> /videodb upload all videos from this playlist `<YOUR_PLAYLIST_URL>`, extract transcripts, and generate a Q&A revision guide with practice questions for each video
 
 ## Ideas for Other Playlists
 
